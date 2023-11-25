@@ -1,10 +1,11 @@
 import Hero from "@/components/layout/homepage/Hero";
 import MaxWidthWrapper from "@/components/max-width-wrapper";
 
+//md:h-[600px]
 export default function Home() {
   return (
     <>
-      <div className="absolute  top-0 left-0 right-0    h-screen md:h-[600px] z-[-5] bg-black " />
+      <div className="absolute  top-0 left-0 right-0    h-screen  z-[-5] bg-blue-50 " />
 
       <MaxWidthWrapper>
         <Hero />
