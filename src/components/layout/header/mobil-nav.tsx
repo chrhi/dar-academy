@@ -17,7 +17,7 @@ export default function MobileNav() {
     <Sheet>
       <SheetTrigger asChild>
         <Button variant="ghost" className="lg:hidden">
-          <Icons.menu className="w-6 h-6 text-white " />
+          <Icons.menu className="w-6 h-6 text-black " />
         </Button>
       </SheetTrigger>
 
