@@ -14,22 +14,17 @@ const Header: FC = ({}) => {
 
           <div className="min-w-[700px] w-fit h-[70px] flex items-center gap-x-4 justify-end">
             <Link className={cn(buttonVariants({ variant: "link" }))} href="/">
-              Home
+              Accueil
             </Link>
             <Link className={cn(buttonVariants({ variant: "link" }))} href="/">
-              About us
+              À propos de nous
             </Link>
             <Link className={cn(buttonVariants({ variant: "link" }))} href="/">
-              Services
+              Les Formations
             </Link>
+
             <Link className={cn(buttonVariants({ variant: "link" }))} href="/">
-              Services area
-            </Link>
-            <Link className={cn(buttonVariants({ variant: "link" }))} href="/">
-              Our work
-            </Link>
-            <Link className={cn(buttonVariants({ variant: "link" }))} href="/">
-              Contact
+              Contactez-nous
             </Link>
             <Button
               variant={"default"}

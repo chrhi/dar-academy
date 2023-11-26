@@ -3,10 +3,10 @@ import type { FC } from "react";
 
 const FacebookRating: FC = ({}) => {
   return (
-    <div className="w-[170px] h-[50px] bg-white shadow rounded-lg flex items-center justify-center">
+    <div className="w-[200px] h-[100px]    flex items-center justify-center">
       <Image
-        width={150}
-        height={65}
+        width={200}
+        height={100}
         alt="google rating "
         src={"/facebook rating.svg"}
       />
