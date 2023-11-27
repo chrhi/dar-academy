@@ -1,9 +1,10 @@
 import "./globals.css";
+import "react-multi-carousel/lib/styles.css";
 // import Script from "next/script";
 import type { Metadata } from "next";
 import Providers from "@/components/Providers";
 import Header from "@/components/layout/header";
-import Footer from "@/components/footer";
+import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
   title: "ALPHA",
