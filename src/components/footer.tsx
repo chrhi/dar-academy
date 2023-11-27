@@ -5,7 +5,7 @@ interface footerAbdullahProps {}
 
 const Footer: FC = ({}) => {
   return (
-    <div className="bg-black h-[400px] w-full">
+    <div className=" h-[400px] w-full">
       <MaxWidthWrapper className="">
         <div className="w-full h-full md:h-[400px] "></div>
       </MaxWidthWrapper>

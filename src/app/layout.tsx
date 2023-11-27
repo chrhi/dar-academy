@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className="selection:bg-blue-500  selection:text-white">
         <Providers>
           <Header />
-          <main className="mt-[70px]">{children}</main>
+          <main className="mt-[70px] min-h-screen ">{children}</main>
           <Footer />
         </Providers>
       </body>

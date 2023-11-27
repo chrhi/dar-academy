@@ -1,7 +1,7 @@
 import Hero from "@/components/layout/homepage/Hero";
 import Testimonials from "@/components/layout/homepage/Testimonials";
 import MaxWidthWrapper from "@/components/max-width-wrapper";
-import Title from "@/components/typography/title";
+import Title from "@/components/typography/Title";
 
 //md:h-[600px]
 export default function Home() {

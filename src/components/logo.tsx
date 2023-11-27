@@ -5,8 +5,8 @@ interface logoAbdullahProps {}
 
 const Logo: FC = ({}) => {
   return (
-    <div className="w-[55px] h-[55px] flex items-center justify-start">
-      <Image src="/logo.jpg" alt="logo" width={55} height={55} />
+    <div className="w-[70px] h-[70px] flex items-center justify-start">
+      <Image src="/logo.jpg" alt="logo" width={70} height={70} />
     </div>
   );
 };
