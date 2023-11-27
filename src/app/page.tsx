@@ -2,6 +2,7 @@ import Hero from "@/components/layout/homepage/Hero";
 import Testimonials from "@/components/layout/homepage/Testimonials";
 import MaxWidthWrapper from "@/components/max-width-wrapper";
 import Title from "@/components/typography/Title";
+import Image from "next/image";
 
 //md:h-[600px]
 export default function Home() {
@@ -43,10 +44,32 @@ export default function Home() {
         <Title text="Our Mession" />
         <div className="w-full h-fit lg:h-[400px] flex items-center justify-center flex-col-reverse lg:flex-row gap-x-8">
           <div className=" w-full lg:w-[50%] lg:h-full h-[300px]   relative p-4">
-            <div className="absolute top-10  left-24 w-[400px] h-[250px] rounded-lg bg-gray-500 "></div>
-            <div className="absolute top-24 left-0 w-[450px] h-[300px] rounded-lg bg-blue-500 "></div>
+            <div className="absolute top-10  left-24 w-[400px] h-[250px] rounded-lg  ">
+              <Image
+                src="/dar-academy/2022-07-13 (1).jpg"
+                alt="dar academy"
+                className="object-cover"
+                fill
+              />
+            </div>
+            <div className="absolute shadow top-24 left-0 w-[450px] h-[300px] rounded-lg ">
+              <Image
+                src="/dar-academy/2022-07-13 (1).jpg"
+                alt="dar academy"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
-          <div className=" w-full lg:w-[50%] lg:h-full bg-green-500 h-[400px]"></div>
+          <div className=" w-full lg:w-[50%] lg:h-full h-[400px]">
+            <h2 className="text-2xl font-semibold ">this is the title</h2>
+            <p className="text-xl text-start text-gray-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              placeat asperiores consequuntur quis doloribus odit sed sequi
+              ducimus rem tempora quod necessitatibus ea nam, sapiente sunt
+              dolores! Molestias, recusandae ea.
+            </p>
+          </div>
         </div>
       </section>
 

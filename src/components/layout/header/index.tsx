@@ -31,9 +31,9 @@ const Header: FC = ({}) => {
             >
               Accueil
               {pathname === "/" ? (
-                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-yellow-400 group-hover:w-full transition-all duration-300" />
+                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-sky-500 group-hover:w-full transition-all duration-300" />
               ) : (
-                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-red-500  group-hover:w-[60px] transition-all duration-300" />
+                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-cyan-500  group-hover:w-[60px] transition-all duration-300" />
               )}
             </Link>
             <Link
@@ -45,9 +45,9 @@ const Header: FC = ({}) => {
             >
               À propos de nous
               {pathname === "/about-us" ? (
-                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-yellow-400 group-hover:w-full transition-all duration-300" />
+                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-sky-500 group-hover:w-full transition-all duration-300" />
               ) : (
-                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-red-500  group-hover:w-[60px] transition-all duration-300" />
+                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-cyan-500  group-hover:w-[60px] transition-all duration-300" />
               )}
             </Link>
             <Link
@@ -59,9 +59,9 @@ const Header: FC = ({}) => {
             >
               Les Formations
               {pathname === "/formations" ? (
-                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-yellow-400 group-hover:w-full transition-all duration-300 " />
+                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-sky-500 group-hover:w-full transition-all duration-300 " />
               ) : (
-                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-red-500  group-hover:w-[60px] transition-all duration-300" />
+                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-cyan-500  group-hover:w-[60px] transition-all duration-300" />
               )}
             </Link>
 
@@ -74,9 +74,9 @@ const Header: FC = ({}) => {
             >
               Contactez-nous
               {pathname === "/contact-us" ? (
-                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-yellow-400 group-hover:w-full transition-all duration-300 " />
+                <div className="w-[60px] h-[5px] absolute bottom-0 left-0  rounded-full bg-blue-500 group-hover:bg-sky-500 group-hover:w-full transition-all duration-300 " />
               ) : (
-                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-red-500  group-hover:w-[60px] transition-all duration-300" />
+                <div className="w-0 h-[5px] absolute bottom-0 left-0  rounded-full bg-cyan-500 group-hover:w-[60px] transition-all duration-300" />
               )}
             </Link>
             <Button
