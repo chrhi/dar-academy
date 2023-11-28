@@ -20,7 +20,7 @@ const posts = [
     title: "Boost your conversion rate",
     href: "#",
     description:
-      "Mashallah..the academy is at the top 😘 Good luck to you in your upcoming trainings ♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️ …",
+      "Mashallah..the academy is at the top 😘  ♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️ …",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
     category: { title: "Marketing", href: "#" },

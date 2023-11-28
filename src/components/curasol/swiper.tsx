@@ -13,6 +13,7 @@ import { Pagination } from "swiper/modules";
 import Title from "../typography/Title";
 import { Button } from "../ui/button";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import BlogCard from "../blog-card";
 
 export default function SwiperCurousel() {
   const swiperRef = useRef<SwiperType>();
@@ -49,25 +50,13 @@ export default function SwiperCurousel() {
         }}
       >
         <SwiperSlide>
-          <div className="w-full h-full bg-black "></div>
+          <BlogCard />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-full bg-red-500 "></div>
+          <BlogCard />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="w-full h-full bg-blue-500 "></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full bg-green-500 "></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full bg-yellow-500 "></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full bg-pink-500 "></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="w-full h-full bg-indigo-500 "></div>
+          <BlogCard />
         </SwiperSlide>
       </Swiper>
     </>

@@ -4,8 +4,10 @@ import MaxWidthWrapper from "@/components/max-width-wrapper";
 import Title from "@/components/typography/Title";
 import Image from "next/image";
 import Map from "@/components/layout/homepage/Map";
-import { Example } from "@/components/curasol";
+
 import SwiperCurousel from "@/components/curasol/swiper";
+import TestimonialCard from "@/components/testimonial-card";
+import { testimonilas } from "@/data/testimonials";
 
 //md:h-[600px]
 export default function Home() {
@@ -89,8 +91,21 @@ export default function Home() {
         </section>
 
         <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit ">
-          <Title text="What Our Students Are Saying" />
-          <Testimonials />
+          <Title text="Read our latest news" />
+          <div className="bg-white my-4 ">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-tsm:mt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                {testimonilas.map((item) => (
+                  <TestimonialCard
+                    image={item.image}
+                    name={item.name}
+                    review={item.review}
+                    key={item.name}
+                  />
+                ))}
+              </div>
+            </div>
+          </div>
         </section>
         <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit ">
           <Title text="Where you can find us" />
