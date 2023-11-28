@@ -1,5 +1,5 @@
 import "./globals.css";
-import "react-multi-carousel/lib/styles.css";
+
 // import Script from "next/script";
 import type { Metadata } from "next";
 import Providers from "@/components/Providers";

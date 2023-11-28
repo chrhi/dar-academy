@@ -4,6 +4,8 @@ import MaxWidthWrapper from "@/components/max-width-wrapper";
 import Title from "@/components/typography/Title";
 import Image from "next/image";
 import Map from "@/components/layout/homepage/Map";
+import { Example } from "@/components/curasol";
+import SwiperCurousel from "@/components/curasol/swiper";
 
 //md:h-[600px]
 export default function Home() {
@@ -81,8 +83,9 @@ export default function Home() {
         </section>
 
         <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit md:h-[550px] ">
-          <Title text="See Our Latest News" />
-          <div className="w-full h-[400px] bg-pink-600 flex items-center justify-center gap-x-8"></div>
+          <div className="w-full h-[400px] ">
+            <SwiperCurousel />
+          </div>
         </section>
 
         <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit ">
