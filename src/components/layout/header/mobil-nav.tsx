@@ -24,7 +24,7 @@ export default function MobileNav() {
       <SheetContent className="w-full z-[9999]">
         <SheetHeader>
           <SheetTitle>
-            Abdellah <span className="text-emerald-500">Chehri</span>
+            Dar <span className="text-blue-500">Adacemy</span>
           </SheetTitle>
           <SheetDescription>
             here are all my social links below feel free to folow me and contach
@@ -32,20 +32,33 @@ export default function MobileNav() {
         </SheetHeader>
         <div className="w-full flex h-[90%] mt-4 flex-col items-start gap-4 py-4">
           <Link
+            key={888}
             href={"/"}
-            target="_blank"
             className={buttonVariants({ variant: "ghost" })}
           >
-            <Icons.twitter className="w-4 h-4 mr-2 " />
-            Twitter
+            Accueil
           </Link>
           <Link
+            key={898}
             href={"/"}
-            target="_blank"
             className={buttonVariants({ variant: "ghost" })}
           >
-            <Icons.gitHub className="w-4 h-4 mr-2 " />
-            GitHub
+            À propos de nous
+          </Link>
+          <Link
+            key={338}
+            href={"/"}
+            className={buttonVariants({ variant: "ghost" })}
+          >
+            Les Formations
+          </Link>
+
+          <Link
+            key={98768}
+            href={"/"}
+            className={buttonVariants({ variant: "ghost" })}
+          >
+            Contactez-nous
           </Link>
         </div>
       </SheetContent>
