@@ -40,7 +40,10 @@ export default function Home() {
                   className={` w-[100px] h-[100px] lg:w-[300px] lg:h-[300px] rounded-xl shadow ${item?.color} flex items-center justify-center `}
                   key={item?.text}
                 >
-                  <p className="text-white text-xl font-bold"> {item?.text}</p>
+                  <p className="text-white text-xl font-bold text-center lg:text-start">
+                    {" "}
+                    {item?.text}
+                  </p>
                 </div>
               );
             })}
@@ -49,8 +52,8 @@ export default function Home() {
         <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit md:h-[550px] ">
           <Title text="Our Mession" />
           <div className="w-full h-fit lg:h-[400px] flex items-center justify-center flex-col-reverse lg:flex-row gap-x-8">
-            <div className=" w-full lg:w-[50%] lg:h-full h-[300px]   relative p-4">
-              <div className="absolute top-10  left-24 w-[400px] h-[250px] rounded-lg  ">
+            <div className=" w-full lg:w-[50%] my-4 lg:my-0 lg:h-full h-[300px] p-8 lg:p-4  relative ">
+              <div className="absolute top-10  left-24 w-[300px] h-[150px] lg:w-[400px] lg:h-[250px] rounded-lg  ">
                 <Image
                   src="/dar-academy/2022-07-13.jpg"
                   alt="dar academy"
@@ -58,7 +61,7 @@ export default function Home() {
                   fill
                 />
               </div>
-              <div className="absolute shadow top-24 left-0 w-[450px] h-[300px] rounded-lg ">
+              <div className="absolute shadow top-24 left-0 w-[350px] h-[200px] lg:w-[450px] lg:h-[300px] rounded-lg ">
                 <Image
                   src="/dar-academy/2022-07-12.jpg"
                   alt="dar academy"

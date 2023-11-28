@@ -5,8 +5,8 @@ interface TestimonialCardAbdullahProps {}
 
 const BlogCard: FC = ({}) => {
   return (
-    <Card className="w-full h-full">
-      <CardTitle>
+    <Card className="w-[400px] h-[300px] bg-black mx-4">
+      {/* <CardTitle>
         <div className="w-full p-4 h-[30px] flex items-center justify-start gap-x-4">
           <p className="text-lg  text-black">we are doing something</p>
         </div>
@@ -15,7 +15,7 @@ const BlogCard: FC = ({}) => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam
         dolore facere at rem quia laudantium qui, consequuntur autem fugit
         minima, id incidunt itaque eum? Qui maxime totam nisi ipsam.
-      </CardContent>
+      </CardContent> */}
     </Card>
   );
 };

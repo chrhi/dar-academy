@@ -20,7 +20,7 @@ export default function SwiperCurousel() {
 
   return (
     <>
-      <div className="h-[100px] w-full flex items-center justify-between">
+      <div className="h-[100px] w-full mt-4 flex items-center justify-between">
         <Title text="What Our Students Are Saying" />
         <div className="w-[50%] gap-x-6 h-[100px] flex items-center justify-end">
           <Button
@@ -44,7 +44,7 @@ export default function SwiperCurousel() {
         slidesPerView={"auto"}
         freeMode={true}
         spaceBetween={30}
-        className="mySwiper"
+        className="mySwiper w-full h-fit mb-8"
         onBeforeInit={(swiper) => {
           swiperRef.current = swiper;
         }}
