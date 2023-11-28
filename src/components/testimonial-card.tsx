@@ -15,7 +15,7 @@ const TestimonialCard: FC<TestimonialCardAbdullahProps> = ({
   review,
 }) => {
   return (
-    <Card className="max-w-[350px] h-fit min-h-[250px] p-4 ">
+    <Card className="  w-[90%] mx-auto lg:w-[350px] h-fit min-h-[250px] p-4 ">
       <CardTitle>
         <div className="w-full  h-[40px] flex items-center justify-start gap-x-4">
           <Avatar>

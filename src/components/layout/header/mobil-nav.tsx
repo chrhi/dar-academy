@@ -11,10 +11,13 @@ import {
 
 import { Icons } from "@/components/icons";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function MobileNav() {
+  const [opne, setOpen] = useState(false);
+
   return (
-    <Sheet>
+    <Sheet open={opne} onOpenChange={(value) => setOpen(value)}>
       <SheetTrigger asChild>
         <Button variant="ghost" className="lg:hidden">
           <Icons.menu className="w-6 h-6 text-black " />
@@ -27,11 +30,12 @@ export default function MobileNav() {
             Dar <span className="text-blue-500">Adacemy</span>
           </SheetTitle>
           <SheetDescription>
-            here are all my social links below feel free to folow me and contach
+            Dar Academy Institus de formations
           </SheetDescription>
         </SheetHeader>
         <div className="w-full flex h-[90%] mt-4 flex-col items-start gap-4 py-4">
           <Link
+            onClick={() => setOpen(false)}
             key={888}
             href={"/"}
             className={buttonVariants({ variant: "ghost" })}
@@ -39,23 +43,26 @@ export default function MobileNav() {
             Accueil
           </Link>
           <Link
+            onClick={() => setOpen(false)}
             key={898}
-            href={"/"}
+            href={"/about-us"}
             className={buttonVariants({ variant: "ghost" })}
           >
             À propos de nous
           </Link>
           <Link
+            onClick={() => setOpen(false)}
             key={338}
-            href={"/"}
+            href={"/formations"}
             className={buttonVariants({ variant: "ghost" })}
           >
             Les Formations
           </Link>
 
           <Link
+            onClick={() => setOpen(false)}
             key={98768}
-            href={"/"}
+            href={"/contact-us"}
             className={buttonVariants({ variant: "ghost" })}
           >
             Contactez-nous

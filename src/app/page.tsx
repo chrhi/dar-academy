@@ -88,12 +88,12 @@ export default function Home() {
         </section>
 
         <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit md:h-[550px] ">
-          <div className="w-full h-[400px] ">
+          <div className="w-full h-[500px] ">
             <SwiperCurousel />
           </div>
         </section>
 
-        <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit ">
+        <section className="w-full mb-4 mt-12 flex flex-col justify-start items-start gap-y-4 h-fit ">
           <Title text="Read our latest news" />
           <div className="bg-white my-4 ">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
