@@ -8,6 +8,10 @@ import Map from "@/components/layout/homepage/Map";
 import SwiperCurousel from "@/components/curasol/swiper";
 import TestimonialCard from "@/components/testimonial-card";
 import { testimonilas } from "@/data/testimonials";
+import Explore from "@/components/sections/Explore";
+import About from "@/components/sections/About";
+import GetStarted from "@/components/sections/GetStarted";
+import WhatsNew from "@/components/sections/WhatsNew";
 
 //md:h-[600px]
 export default function Home() {
@@ -49,7 +53,17 @@ export default function Home() {
             })}
           </div>
         </section>
-        <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit md:h-[550px] ">
+        <div className="relative">
+          <About />
+          <div className="gradient-03 z-0" />
+          <Explore />
+        </div>
+        <div className="relative">
+          <GetStarted />
+          <div className="gradient-04 z-0" />
+          <WhatsNew />
+        </div>
+        {/* <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit md:h-[550px] ">
           <Title text="Our Mession" />
           <div className="w-full h-fit lg:h-[400px] flex items-center justify-center flex-col-reverse lg:flex-row gap-x-8">
             <div className=" w-full lg:w-[50%] my-4 lg:my-0 lg:h-full h-[300px] p-8 lg:p-4  relative ">
@@ -85,15 +99,15 @@ export default function Home() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit md:h-[550px] ">
+        {/* <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit md:h-[550px] ">
           <div className="w-full h-[500px] ">
             <SwiperCurousel />
           </div>
-        </section>
+        </section> */}
 
-        <section className="w-full mb-4 mt-12 flex flex-col justify-start items-start gap-y-4 h-fit ">
+        {/* <section className="w-full mb-4 mt-12 flex flex-col justify-start items-start gap-y-4 h-fit ">
           <Title text="Read our latest news" />
           <div className="bg-white my-4 ">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -109,7 +123,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="w-full my-4 flex flex-col justify-start items-start gap-y-4 h-fit ">
           <Title text="Where you can find us" />
           <Map />

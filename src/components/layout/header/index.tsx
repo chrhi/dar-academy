@@ -81,6 +81,7 @@ const Header: FC = ({}) => {
             </Link>
             <Button
               variant={"default"}
+              size={"lg"}
               className={cn("bg-blue-500 text-white font-bold rounded-full ")}
             >
               +213 0541091394

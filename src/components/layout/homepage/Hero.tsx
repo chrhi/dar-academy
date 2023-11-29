@@ -11,7 +11,7 @@ const Hero: FC = ({}) => {
       id="hero section"
       className="w-full h-full relative flex flex-col md:flex-row items-center justify-between "
     >
-      {/* <div
+      <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 top-56 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
       >
@@ -22,15 +22,15 @@ const Hero: FC = ({}) => {
           }}
           className="relative left-[calc(50%-13rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-36rem)] sm:w-[72.1875rem]"
         />
-      </div> */}
+      </div>
 
       <div className="  p-4 md:p-0   w-full lg:w-[50%] h-full md:min-h-[600px] flex flex-col  justify-center">
-        <h1 className=" text-5xl md:text-6xl mt-14  text-center md:text-start font-bold tracking-wider text-black">
+        <h1 className=" text-5xl mt-14  text-center md:text-start font-bold tracking-wider  leading-[50px] text-black">
           Dar Academy
           <br />
           Institus de formations
         </h1>
-        <p className="text-lg text-gray-500 text-start my-4">
+        <p className="text-md text-gray-700   text-center md:text-start my-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto at
           debitis optio cum laborum beatae maxime, voluptas pariatur? Vitae
           ratione odit commodi, doloribus esse deleniti harum itaque accusamus
