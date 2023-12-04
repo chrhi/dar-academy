@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.2",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@hookform/resolvers": "^3.3.2",
@@ -19,16 +20,21 @@
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
+    "@vercel/analytics": "^1.1.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.5",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.292.0",
+    "negotiator": "^0.6.3",
     "next": "14.0.3",
     "next13-progressbar": "^1.1.0",
+    "plaiceholder": "^3.0.0",
     "popmotion": "^11.0.5",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
     "react-star-ratings": "^2.3.0",
     "semantic-ui-react": "^2.1.4",
     "swiper": "^11.0.5",
@@ -37,6 +43,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
