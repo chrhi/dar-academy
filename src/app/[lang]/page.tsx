@@ -95,7 +95,7 @@ export default async function Pape({
         </section>
 
         <section className=" w-full md:w-[800px] mx-auto  h-fit my-8">
-          <div className="w-full h-[500px] flex flex-col lg:flex-row items-center justify-center  md:gap-x-12 lg:gap-x-24">
+          <div className="w-full min-h-[500px] h-fit flex flex-col lg:flex-row items-center justify-center  md:gap-x-12 lg:gap-x-24">
             <div className="w-[400px] h-full flex p-6 lg:p-0 flex-col items-start justify-center gap-y-4">
               <h2 className="text-2xl font-bold ">Who are we ?</h2>
               <p className="text-md font-gray-700 ">
@@ -105,25 +105,27 @@ export default async function Pape({
                 vel, provident ex!
               </p>
             </div>
-            <div className="w-[400px] h-full overflow-hidden flex flex-col items-center justify-center gap-y-4">
+            <div className="w-[400px] relative h-full  flex flex-col items-center justify-center gap-y-4">
               <Image
                 src={FirstImage}
                 alt="this is an image"
                 width={235}
                 height={300}
-                className="object-cover"
+                className="object-cover border border-black"
               />
+              <div className="h-[500px] w-[235px] top-[50px] z-[-20] absolute bg-sky-400  right-[50px] " />
             </div>
           </div>
-          <div className="w-full h-[500px] flex items-center  flex-col-reverse lg:flex-row justify-center  md:gap-x-12 lg:gap-x-24">
-            <div className="w-[400px] h-full overflow-hidden flex flex-col items-center justify-center gap-y-4">
+          <div className="w-full min-h-[500px] h-fit flex items-center  flex-col-reverse lg:flex-row justify-center  md:gap-x-12 lg:gap-x-24">
+            <div className="w-[400px] h-full  flex flex-col items-center justify-center gap-y-4 relative">
               <Image
                 src={SecondImage}
                 alt="this is an image"
                 width={235}
                 height={300}
-                className="object-cover"
+                className="object-cover border border-black"
               />
+              <div className="h-[100px] w-[235px] top-[20px] z-[-20] absolute bg-blue-500  right-[50px] " />
             </div>
             <div className="w-[400px] h-full flex flex-col p-6 lg:p-0 items-start justify-center gap-y-4">
               <h2 className="text-2xl font-bold ">Our Mession </h2>
@@ -135,7 +137,7 @@ export default async function Pape({
               </p>
             </div>
           </div>
-          <div className="w-full h-[500px] flex items-center justify-center flex-col lg:flex-row  md:gap-x-12 lg:gap-x-24">
+          <div className="w-full min-h-[500px] h-fit flex items-center justify-center flex-col lg:flex-row  md:gap-x-12 lg:gap-x-24">
             <div className="w-[400px] h-full flex flex-col  p-6 lg:p-0 items-start justify-center gap-y-4">
               <h2 className="text-2xl font-bold ">Why choose us ?</h2>
               <p className="text-md font-gray-700 ">
@@ -145,14 +147,16 @@ export default async function Pape({
                 vel, provident ex!
               </p>
             </div>
-            <div className="w-[400px] h-full overflow-hidden flex flex-col items-center justify-center gap-y-4">
+            <div className="w-[400px] h-full  relative flex flex-col items-center justify-center gap-y-4">
               <Image
                 src={TheardImage}
                 alt="this is an image"
                 width={235}
                 height={300}
-                className="object-cover"
+                className="object-cover border border-black relative"
               />
+
+              <div className="h-[400px] w-[235px] top-[50px] z-[-20] absolute bg-yellow-400  right-[40px] " />
             </div>
           </div>
         </section>

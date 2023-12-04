@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../public/dar-academy/logo.jpg";
+import logo from "../../../../public/dar-academy/logo.jpg";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
 import HeaderClinet from "./HeaderClinet";
@@ -15,7 +15,7 @@ const Header = async ({ lang }: { lang: Locale }) => {
     {
       id: links.projects,
       label: navigation.projects,
-      originalLink: "/projects",
+      originalLink: "/trainnings",
     },
     {
       id: links.blog,
