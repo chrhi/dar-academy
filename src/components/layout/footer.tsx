@@ -33,7 +33,7 @@ const Footer: FC = ({}) => {
               <p className="text-md  text-foreground  ">instagrame</p>
             </Link>
           </div>
-          <div className=" w-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
+          <div className=" w-full h-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
             <p className="text-lg font-semibold text-foreground  ">Links</p>
             <Link href="/">
               <p className="text-md  text-foreground ">formations</p>
@@ -47,7 +47,7 @@ const Footer: FC = ({}) => {
             </Link>
           </div>
 
-          <div className=" w-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
+          <div className=" w-full h-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
             <p className="text-lg font-semibold text-foreground  ">Ligal</p>
             <Link href="/">
               <p className="text-md  text-foreground ">term</p>
@@ -60,18 +60,31 @@ const Footer: FC = ({}) => {
             </Link>
           </div>
 
-          <div className=" w-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
-            <p className="text-lg font-semibold text-foreground  ">
-              work times
+          <div className=" w-full flex h-full flex-col justify-start items-start gap-y-2 pt-8 ">
+            <p className="text-md font-semibold text-foreground  ">
+              Horaires d&apos;ouverture
             </p>
             <Link href="/">
-              <p className="text-md  text-foreground ">About</p>
+              <p className="text-sm  text-foreground ">lun.: 08:00 – 17:00</p>
             </Link>
             <Link href="/">
-              <p className="text-md text-foreground ">Careers</p>
+              <p className="text-sm text-foreground ">mar.: 08:00 – 17:00</p>
             </Link>
             <Link href="/">
-              <p className="text-md text-foreground ">Blog</p>
+              <p className="text-sm text-foreground ">mer.: 08:00 – 17:00</p>
+            </Link>
+
+            <Link href="/">
+              <p className="text-sm  text-foreground ">jeu.: 08:00 – 17:00</p>
+            </Link>
+            <Link href="/">
+              <p className="text-sm text-foreground ">ven.: Fermé</p>
+            </Link>
+            <Link href="/">
+              <p className="text-sm text-foreground ">sam.: Fermé</p>
+            </Link>
+            <Link href="/">
+              <p className="text-sm text-foreground ">dim.: 08:00 – 17:00</p>
             </Link>
           </div>
         </div>

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import AnimatedTabs from "./AnimatedTabs";
+import AnimatedTabs from "./layout/header/AnimatedTabs";
 import logo from "../../public/dar-academy/logo.jpg";
-import LocaleSwitcher from "./LocaleSwitcher";
-import CustomLink from "./Link";
+import LocaleSwitcher from "./layout/header/LocaleSwitcher";
+import CustomLink from "./layout/header/Link";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
-import SideBar from "./SideBar";
+import SideBar from "./layout/header/SideBar";
 import MaxWidthWrapper from "./max-width-wrapper";
 
 const Header = async ({ lang }: { lang: Locale }) => {

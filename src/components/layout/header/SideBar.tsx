@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
 import { cn } from "@/lib/utils";
-import { buttonVariants } from "./ui/button";
+import { buttonVariants } from "../../ui/button";
 import {
   RiDiscussLine,
   RiHome2Line,
