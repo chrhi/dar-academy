@@ -31,16 +31,12 @@ export default function RootLayout({
       dir={lang === "ar" ? "rtl" : "ltr"}
       lang={lang}
     >
-      <body className="selection:bg-blue-500 w-[100%] antialiased  selection:text-white">
+      <body className="selection:bg-blue-500 w-[100%] antialiased  selection:text-white scrollbar-thumb-blue scrollbar-track-blue-lighter scrollbar-w-2">
         <Providers>
           <Header lang={lang} />
           <main className="mt-[70px] min-h-screen ">{children}</main>
           <Footer />
         </Providers>
-        <Script
-          async
-          src="//code.tidio.co/f4ntqdkrkcmkov2pbgapiuevig4fhtbq.js"
-        />
       </body>
     </html>
   );

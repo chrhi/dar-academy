@@ -8,7 +8,7 @@ const GoogleRating: FC = ({}) => {
         width={200}
         height={100}
         alt="google rating "
-        src={"/google rating.svg"}
+        src={"../../public/google.svg"}
       />
     </div>
   );

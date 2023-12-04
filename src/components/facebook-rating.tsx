@@ -7,8 +7,8 @@ const FacebookRating: FC = ({}) => {
       <Image
         width={200}
         height={100}
-        alt="google rating "
-        src={"/facebook rating.svg"}
+        alt="facebook rating "
+        src={"/facebook.svg"}
       />
     </div>
   );

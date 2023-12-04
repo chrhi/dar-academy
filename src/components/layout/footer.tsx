@@ -1,70 +1,69 @@
 import type { FC } from "react";
 import MaxWidthWrapper from "../max-width-wrapper";
-import Logo from "../logo";
 import Link from "next/link";
-import { buttonVariants } from "../ui/button";
 
 interface footerAbdullahProps {}
 
 const Footer: FC = ({}) => {
   return (
-    <div className=" border-t h-[400px] w-full">
-      <MaxWidthWrapper className="">
-        <div className="w-full h-full md:h-[400px] grid grid-col-2 lg:grid-cols-6 p-4 lg:p-0 lg:pt-12 gap-4 mb-4">
-          <div className="col-span-2 flex py-4 flex-col justify-center items-start pr-4 ">
-            <Logo />
-            <p className="text-gray-700 text-xl">
-              this is a bref description about what we de{" "}
-            </p>
-            <div>
-              <Link
-                href={"/"}
-                className={buttonVariants({ size: "icon", variant: "ghost" })}
-              >
-                f
-              </Link>
-              <Link
-                href={"/"}
-                className={buttonVariants({ size: "icon", variant: "ghost" })}
-              >
-                i
-              </Link>
-              <Link
-                href={"/"}
-                className={buttonVariants({ size: "icon", variant: "ghost" })}
-              >
-                l
-              </Link>
-            </div>
+    <div className="w-full lg:h-[300px] h-fit bg-background mt-8 border-t border-gray-200">
+      <MaxWidthWrapper>
+        <div className="w-full h-full grid grid-cols-1 p-4 md:grid-cols-6 items-center justify-between">
+          <div className="lg:col-span-2 h-full w-full flex items-center justify-start lg:justify-center">
+            <Link href="/">
+              <p className="text-2xl font-bold text-foreground ">Dar Academy</p>
+            </Link>
           </div>
-          <div className="col-span-1 flex flex-col items-start justify-start gap-y-4">
-            <h4 className="text-xl font-semibold text-start ">PRODUCTS</h4>
-            <p className="text-gray-800 text-lg text-start">Pricing</p>
-            <p className="text-gray-800 text-lg text-start ">Try For Free</p>
-          </div>
-          <div className="col-span-1 flex flex-col items-start justify-start gap-y-4">
-            <h4 className="text-xl font-semibold text-start">SOLUTIONS</h4>
-            <p className="text-gray-800 text-lg text-start">Task Management</p>
-            <p className="text-gray-800 text-lg text-start">
-              Client Communication
-            </p>
-            <p className="text-gray-800 text-lg text-start">
-              Team Communication
-            </p>
-            <p className="text-gray-800 text-lg text-start">Client Billing</p>
-          </div>
-          <div className="col-span-1 flex flex-col items-start  justify-start  gap-y-4">
-            <h4 className="text-xl font-semibold text-start">School</h4>
 
-            <p className="text-gray-800 text-lg text-start">Careers</p>
-            <p className="text-gray-800 text-lg text-start">Privacy Policy</p>
-            <p className="text-gray-800 text-lg text-start ">
-              Terms & Conditions
-            </p>
+          <div className=" w-full h-full flex flex-col justify-center items-start gap-y-2 pt-8 ">
+            <p className="text-lg font-semibold text-foreground ">Product</p>
+            <Link href="/">
+              <p className="text-md   text-foreground ">student managemnt</p>
+            </Link>
+            <Link href="/">
+              <p className="text-md  text-foreground  ">trainers</p>
+            </Link>
+            <Link href="/">
+              <p className="text-md text-foreground ">trainning</p>
+            </Link>
           </div>
-          <div className="col-span-1 flex flex-col items-start justify-start  gap-y-4">
-            <h4 className="text-xl font-semibold text-start ">COMMUNITY</h4>
-            <p className="text-gray-800 text-lg text-start">Help Center</p>
+          <div className=" w-full flex flex-col justify-center items-start gap-y-2 pt-8 ">
+            <p className="text-lg font-semibold text-foreground  ">Comunity</p>
+            <Link href="/">
+              <p className="text-md  text-foreground ">discord server</p>
+            </Link>
+            <Link href="/">
+              <p className="text-md text-foreground ">github</p>
+            </Link>
+
+            <Link href="/">
+              <p className="text-md text-foreground ">support</p>
+            </Link>
+          </div>
+          <div className=" w-full flex flex-col justify-center items-start gap-y-2 pt-8 ">
+            <p className="text-lg font-semibold text-foreground  ">Company</p>
+            <Link href="/">
+              <p className="text-md  text-foreground ">About</p>
+            </Link>
+            <Link href="/">
+              <p className="text-md text-foreground ">Careers</p>
+            </Link>
+            <Link href="/">
+              <p className="text-md text-foreground ">Blog</p>
+            </Link>
+          </div>
+
+          <div className=" w-full flex flex-col justify-center items-start gap-y-2 pt-8 ">
+            <p className="text-lg font-semibold text-foreground  ">Ligal</p>
+            <Link href="/">
+              <p className="text-md  text-foreground ">term</p>
+            </Link>
+            <Link href="/">
+              <p className="text-md text-foreground ">privacy policy</p>
+            </Link>
+            <Link href="/">
+              <p className="text-md text-foreground ">cookies </p>
+            </Link>
           </div>
         </div>
       </MaxWidthWrapper>

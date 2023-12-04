@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AnimatedTabs from "./AnimatedTabs";
 import logo from "../../public/dar-academy/logo.jpg";
 import LocaleSwitcher from "./LocaleSwitcher";
@@ -33,9 +33,10 @@ const Header = async ({ lang }: { lang: Locale }) => {
       originalLink: "/contact",
     },
   ];
+
   return (
     <>
-      <header className="h-16 z-50  sticky top-0    w-full">
+      <header className={`h-16 z-50  sticky top-0  bg-white   w-full `}>
         <MaxWidthWrapper className="flex justify-between items-center w-full h-full mx-auto">
           <CustomLink
             lang={lang}
