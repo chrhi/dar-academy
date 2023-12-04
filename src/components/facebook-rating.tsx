@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { FC } from "react";
+import FacebookRatingImage from "../../public/facebook.svg";
 
 const FacebookRating: FC = ({}) => {
   return (
@@ -8,7 +9,7 @@ const FacebookRating: FC = ({}) => {
         width={200}
         height={100}
         alt="facebook rating "
-        src={"/facebook.svg"}
+        src={FacebookRatingImage}
       />
     </div>
   );

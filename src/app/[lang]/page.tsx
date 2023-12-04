@@ -4,7 +4,15 @@ import MaxWidthWrapper from "@/components/max-width-wrapper";
 import TestimonialCard from "@/components/testimonial-card";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
+import Image from "next/image";
 import { Balancer } from "react-wrap-balancer";
+
+import FirstImage from "../../../public/dar-academy/2022-07-12.jpg";
+import SecondImage from "../../../public/dar-academy/2022-07-13 (1).jpg";
+import TheardImage from "../../../public/dar-academy/2022-07-13 (2).jpg";
+import Map from "@/components/layout/homepage/Map";
+
+// import { getBase64 } from "@/lib/plaiceholder";
 
 //md:h-[600px]
 export default async function Pape({
@@ -13,6 +21,7 @@ export default async function Pape({
   params: { lang: Locale };
 }) {
   const { landing } = await getDictionary(lang);
+
   return (
     <MaxWidthWrapper>
       <main>
@@ -65,13 +74,71 @@ export default async function Pape({
           </div>
         </section>
 
-        <section>
-          {/* 
-          hadik taswiraa wa text tolatiya */}
+        <section className=" w-full md:w-[800px] mx-auto  h-fit my-8">
+          <div className="w-full h-[500px] flex flex-col lg:flex-row items-center justify-center  md:gap-x-12 lg:gap-x-24">
+            <div className="w-[400px] h-full flex p-6 lg:p-0 flex-col items-start justify-center gap-y-4">
+              <h2 className="text-2xl font-bold ">Who are we ?</h2>
+              <p className="text-md font-gray-700 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                blanditiis odio consequuntur quaerat nihil, porro, pariatur
+                quia, iure illo assumenda quasi. Neque velit iste aut a minima
+                vel, provident ex!
+              </p>
+            </div>
+            <div className="w-[400px] h-full overflow-hidden flex flex-col items-center justify-center gap-y-4">
+              <Image
+                src={FirstImage}
+                alt="this is an image"
+                width={235}
+                height={300}
+                className="object-cover"
+              />
+            </div>
+          </div>
+          <div className="w-full h-[500px] flex items-center  flex-col-reverse lg:flex-row justify-center  md:gap-x-12 lg:gap-x-24">
+            <div className="w-[400px] h-full overflow-hidden flex flex-col items-center justify-center gap-y-4">
+              <Image
+                src={SecondImage}
+                alt="this is an image"
+                width={235}
+                height={300}
+                className="object-cover"
+              />
+            </div>
+            <div className="w-[400px] h-full flex flex-col p-6 lg:p-0 items-start justify-center gap-y-4">
+              <h2 className="text-2xl font-bold ">Our Mession </h2>
+              <p className="text-md font-gray-700 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                blanditiis odio consequuntur quaerat nihil, porro, pariatur
+                quia, iure illo assumenda quasi. Neque velit iste aut a minima
+                vel, provident ex!
+              </p>
+            </div>
+          </div>
+          <div className="w-full h-[500px] flex items-center justify-center flex-col lg:flex-row  md:gap-x-12 lg:gap-x-24">
+            <div className="w-[400px] h-full flex flex-col  p-6 lg:p-0 items-start justify-center gap-y-4">
+              <h2 className="text-2xl font-bold ">Why choose us ?</h2>
+              <p className="text-md font-gray-700 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                blanditiis odio consequuntur quaerat nihil, porro, pariatur
+                quia, iure illo assumenda quasi. Neque velit iste aut a minima
+                vel, provident ex!
+              </p>
+            </div>
+            <div className="w-[400px] h-full overflow-hidden flex flex-col items-center justify-center gap-y-4">
+              <Image
+                src={TheardImage}
+                alt="this is an image"
+                width={235}
+                height={300}
+                className="object-cover"
+              />
+            </div>
+          </div>
         </section>
 
         <section id="tesimonials" className="w-full h-fit">
-          <h2 className="text-4xl font-bold text-start md:text-center my-12 ">
+          <h2 className=" text-2xl lg:text-4xl font-bold text-start md:text-center my-12 ">
             The reviews are in.
           </h2>
           <div className="flex w-full mx-auto max-w-[750px] justify-start items-start gap-6 flex-wrap">
@@ -93,7 +160,15 @@ export default async function Pape({
           </div>
         </section>
 
-        <section>{/* here goes google map */}</section>
+        <section
+          id="map"
+          className="w-full h-fit flex flex-col items-start justify-center lg:items-center"
+        >
+          <h2 className=" text-2xl lg:text-4xl font-bold text-start md:text-center my-12 ">
+            where you can find us?
+          </h2>
+          <Map />
+        </section>
       </main>
     </MaxWidthWrapper>
   );

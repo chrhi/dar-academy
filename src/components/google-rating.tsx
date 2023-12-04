@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { FC } from "react";
+import GoogleRatingImage from "../../public/google.svg";
 
 const GoogleRating: FC = ({}) => {
   return (
@@ -8,7 +9,7 @@ const GoogleRating: FC = ({}) => {
         width={200}
         height={100}
         alt="google rating "
-        src={"../../public/google.svg"}
+        src={GoogleRatingImage}
       />
     </div>
   );
