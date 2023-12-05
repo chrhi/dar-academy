@@ -7,9 +7,9 @@ import { getDictionary } from "@/lib/dictionary";
 import Image from "next/image";
 import { Balancer } from "react-wrap-balancer";
 
-import FirstImage from "../../../public/dar-academy/2022-07-12.jpg";
-import SecondImage from "../../../public/dar-academy/2022-07-13 (1).jpg";
-import TheardImage from "../../../public/dar-academy/2022-07-13 (2).jpg";
+import FirstImage from "../../../../public/dar-academy/2022-07-12.jpg";
+import SecondImage from "../../../../public/dar-academy/2022-07-13 (1).jpg";
+import TheardImage from "../../../../public/dar-academy/2022-07-13 (2).jpg";
 import Map from "@/components/layout/homepage/Map";
 
 // import { getBase64 } from "@/lib/plaiceholder";
