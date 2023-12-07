@@ -1,8 +1,28 @@
 {
   "landing": {
     "name": "Dar Academy",
-    "follow": "Ecole de formation",
-    "description": "ecole de formation , approndre novelle compitunce "
+    "follow": "École de formation",
+    "description": "Investissez en vous-même en acquérant de nouvelles compétences et en apprenant des concepts modernes. C'est la première étape vers une avancée globale dans votre parcours personnel et professionnel",
+    "who are we ": {
+      "title": "Qui sommes-nous?",
+      "description": "Dar Academy est une école privée engagée à fournir une éducation de haute qualité dans un environnement sûr et favorable. Nous sommes fiers de proposer des programmes éducatifs complets visant à développer de manière holistique les élèves, les habilitant à devenir des citoyens réussis et contributeurs dans leur communauté."
+    },
+    "our mession": {
+      "title": "Notre mission",
+      "description": "Notre mission à Dar Academy est de fournir une éducation distinctive encourageant la pensée critique et favorisant l'excellence académique et sociale. Nous nous efforçons de construire un environnement éducatif qui encourage la créativité et l'innovation, permettant aux étudiants d'atteindre leur plein potentiel."
+    },
+    "why choose us": {
+      "title": "Pourquoi nous choisir?",
+      "description": " Compétence académique: Nous proposons des programmes éducatifs sous la supervision d'une faculté qualifiée et expérimentée. Environnement éducatif sûr: Nous nous engageons à fournir un environnement d'apprentissage sûr et favorable au développement des élèves.  Programmes de développement personnel: Nous cherchons à développer les aspects personnels et sociaux des élèves en plus de l'excellence académique. "
+    },
+    "sub": "L'Académie Dar est à votre service"
+  },
+  "services": {
+    "Our Services": "Nos Services",
+    "Primary School Courses": "Cours pour l'école primaire",
+    "Middle School Courses": "Cours pour le collège",
+    "High School Courses": "Cours pour le lycée",
+    "Practical Training Courses": "Formations pratiques"
   },
   "navigation": {
     "home": "",
@@ -75,5 +95,51 @@
       "contact": "Contact Me"
     },
     "copyright": "© 2023 - Moncef Aissaoui. All rights reserved."
-  }
+  },
+  "reviews": [
+    {
+      "auther": {
+        "name": "Chellali Asma",
+        "imageUrl": "jj"
+      },
+      "content": "Bonne chance à vous.. plus de succès et de brillance 🌹♥️"
+    },
+    {
+      "auther": {
+        "name": "Assouma Chocolata",
+        "imageUrl": "jj"
+      },
+      "content": "Mashallah.. l'académie est au top 😘 Bonne chance à vous dans vos prochaines formations ♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️"
+    },
+    {
+      "auther": {
+        "name": "Bradai Wahab",
+        "imageUrl": "jj"
+      },
+      "content": "Merci pour les efforts 👏👏"
+    },
+    {
+      "auther": {
+        "name": "Bradai Wahab",
+        "imageUrl": "jj"
+      },
+      "content": "Découvrez les talents et les compétences ici"
+    },
+    {
+      "auther": {
+        "name": "Abdou Bradai",
+        "imageUrl": "jj"
+      },
+      "content": "confiance"
+    },
+    {
+      "auther": {
+        "name": "Mimi Meh",
+        "imageUrl": "jj"
+      },
+      "content": "Meilleure école, bonne chance 💚💚💚💚💚💚💚💚💚💚💚💚💚💚"
+    }
+  ],
+  "reviewsTitle": "Les avis sont là.",
+  "findus": "Où pouvez-vous nous trouver ?"
 }
