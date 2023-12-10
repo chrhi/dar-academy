@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/max-width-wrapper";
+import TrainningCard from "@/components/trainning-card";
 import type { FC } from "react";
 
 interface pageAbdullahProps {}
@@ -18,6 +19,11 @@ const page: FC = ({}) => {
             {" "}
             Most Popular Resources
           </h2>
+          <div className="w-full h-fit min-h-[500px] flex flex-wrap gap-4">
+            {[1, 2, 3, 4, 5].map((item) => (
+              <TrainningCard />
+            ))}
+          </div>
         </section>
         <section className="my-4 w-full h-fit">
           <h2 className="text-2xl  lg:text-4xl  text-black font-bold text-start">
