@@ -26,9 +26,9 @@
   },
   "navigation": {
     "home": "الرئيسية",
-    "projects": "مشاريع",
-    "blog": "مدونة",
-    "contact": "إتصل بي"
+    "projects": "التدريبات",
+
+    "contact": "اتصل بنا"
   },
   "links": {
     "home": "/ar",

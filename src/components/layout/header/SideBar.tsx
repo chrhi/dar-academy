@@ -22,7 +22,7 @@ const SideBar = ({
   navigation: {
     home: string;
     projects: string;
-    blog: string;
+
     contact: string;
   };
 }) => {
@@ -68,17 +68,6 @@ const SideBar = ({
           <span className="text-center text-xl">{navigation.projects}</span>
         </CustomLink>
 
-        <CustomLink
-          lang={lang}
-          className="duration-75 h-16 border-b border-dark-800 flex text-lg  px-3 gap-3 items-center   transition-all text-light-700 hover:text-light-50"
-          href="/blog"
-          onClickCapture={() => {
-            ref.current?.click();
-          }}
-        >
-          <RiLightbulbFlashLine className="w-6 h-6" />
-          <span className="text-center text-xl">{navigation.blog}</span>
-        </CustomLink>
         <CustomLink
           lang={lang}
           className="duration-75 h-16 border-b border-dark-800 flex text-lg  px-3 gap-3 items-center   transition-all text-light-700 hover:text-light-50"

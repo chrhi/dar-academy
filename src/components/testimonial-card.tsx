@@ -16,7 +16,7 @@ const TestimonialCard: FC<TestimonialCardAbdullahProps> = ({
   position,
 }) => {
   return (
-    <div className="w-[90%] max-w-[346px]   min-h-[200px] bg-gray-100  h-fit p-4 rounded-lg mx-auto lg:mx-0 ">
+    <div className="w-[90%] max-w-[346px] overflow-hidden  min-h-[200px] bg-gray-100  h-fit p-4 rounded-lg mx-auto lg:mx-0 ">
       <div className="w-full h-[50px] flex items-center justify-start  gap-x-1 ">
         <Icons.star className="w-4 h-4 text-blue-500" />
         <Icons.star className="w-4 h-4 text-blue-500" />

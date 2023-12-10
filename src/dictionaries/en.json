@@ -25,10 +25,9 @@
     "Practical Training Courses": "Formations pratiques"
   },
   "navigation": {
-    "home": "",
-    "projects": "Les formation",
-    "blog": "Blog",
-    "contact": "Contact"
+    "home": "Accueil",
+    "projects": "Formations",
+    "contact": "Contacte"
   },
   "links": {
     "home": "/",
@@ -89,10 +88,10 @@
   },
   "footer": {
     "navigation": {
-      "home": "Home",
-      "projects": "Projects",
-      "blog": "Blog",
-      "contact": "Contact Me"
+      "home": "Accueil",
+      "projects": "formations",
+
+      "contact": "Contacte"
     },
     "copyright": "© 2023 - Moncef Aissaoui. All rights reserved."
   },

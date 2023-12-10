@@ -22,11 +22,7 @@ const Header = async ({ lang }: { lang: Locale }) => {
       label: navigation.projects,
       originalLink: "/projects",
     },
-    {
-      id: links.blog,
-      label: navigation.blog,
-      originalLink: "/blog",
-    },
+
     {
       id: links.contact,
       label: navigation.contact,
