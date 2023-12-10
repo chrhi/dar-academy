@@ -37,17 +37,17 @@ const Header = async ({ lang }: { lang: Locale }) => {
           <CustomLink
             lang={lang}
             href="/"
-            className="hover:bg-primary-900 rounded-full duration-75 transition-colors"
+            className="hover:bg-primary-900  rounded-full duration-75 transition-colors"
           >
             <Image
               src={logo}
               alt="Moncef Aissaoui Letter"
-              width={40}
-              height={40}
+              width={100}
+              height={100}
             />
           </CustomLink>
 
-          <section className="flex items-center justify-center gap-3 ">
+          <section className="flex items-center justify-end  ">
             <AnimatedTabs lang={lang} tabs={Tabs} />
             <LocaleSwitcher lang={lang} />
             <SideBar lang={lang} navigation={navigation} />

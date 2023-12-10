@@ -15,15 +15,15 @@ type AnimatedTabsProps = {
 const AnimatedTabs = ({ tabs, lang }: AnimatedTabsProps) => {
   const path = usePathname();
   return (
-    <nav className=" hidden lg:flex space-x-1">
+    <nav className=" hidden lg:flex h-full  items-center  gap-x-2">
       {tabs.map((tab) => (
         <CustomLink
           lang={lang}
           href={tab.originalLink}
           key={tab.id}
           className={`${
-            path === tab.id ? "" : "hover:text-black/60"
-          } relative rounded-full px-3 py-1.5 text-sm font-medium text-black outline-sky-400 transition focus-visible:outline-2`}
+            path === tab.id ? " bg-blue-500 text-white" : "hover:text-black/60"
+          } relative rounded-full px-3 py-1.5 text-xl font-semibold text-black outline-sky-400 transition focus-visible:outline-2`}
           style={{
             WebkitTapHighlightColor: "transparent",
           }}

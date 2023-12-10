@@ -36,7 +36,7 @@ export default async function Pape({
           </div>
           <Balancer
             as="h1"
-            className="font-heading font-bold text-5xl md:text-6xl lg:text-7xl"
+            className="font-heading font-bold text-5xl md:text-6xl lg:text-8xl"
           >
             <span className="text-blue-500">{landing.name}</span> <br />
             {landing.follow}
