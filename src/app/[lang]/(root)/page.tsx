@@ -32,7 +32,7 @@ export default async function Pape({
           className=" relative mx-auto flex w-full max-w-[64rem] flex-col items-center justify-center gap-4 pt-12  text-center md:pt-32"
         >
           <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
-            <p className="text-sm font-semibold text-gray-700">{landing.sub}</p>
+            <p className="text-md font-semibold text-gray-700">{landing.sub}</p>
           </div>
           <Balancer
             as="h1"
@@ -41,7 +41,7 @@ export default async function Pape({
             <span className="text-blue-500">{landing.name}</span> <br />
             {landing.follow}
           </Balancer>
-          <Balancer className="max-w-[42rem] font-semibold leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+          <Balancer className="max-w-[42rem] font-semibold leading-normal text-muted-foreground sm:text-2xl sm:leading-8">
             {landing.description}
           </Balancer>
           <div className="flex flex-wrap items-center justify-center gap-4">
@@ -66,30 +66,30 @@ export default async function Pape({
               className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
-          <h2 className="text-sm  font-semibold text-gray-700 text-center my-4 ">
+          <h2 className="text-md  font-semibold text-gray-700 text-center my-4 ">
             {services["Our Services"]}
           </h2>
-          <div className="flex min-w-full w-fit mx-auto justify-center items-start gap-4  flex-wrap">
-            <div className="w-[100px] h-[100px] bg-blue-500 rounded-lg shadow flex items-center justify-center">
-              <span className="text-md text-white font-semibold text-center">
+          <div className="flex min-w-full w-fit mx-auto justify-center items-start gap-4 mb-8  flex-wrap">
+            <div className="w-[150px] h-[150px] bg-blue-500 rounded-lg shadow flex items-center justify-center">
+              <span className="text-lg text-white font-semibold text-center">
                 {/* @ts-ignore */}
                 {services["Primary School Courses"]}
               </span>
             </div>
-            <div className="w-[100px] h-[100px] bg-yellow-400 rounded-lg shadow flex items-center justify-center">
-              <span className="text-md text-white font-semibold text-center">
+            <div className="w-[150px] h-[150px] bg-yellow-400 rounded-lg shadow flex items-center justify-center">
+              <span className="text-lg text-white font-semibold text-center">
                 {/* @ts-ignore */}
                 {services["Middle School Courses"]}
               </span>
             </div>
-            <div className="w-[100px] h-[100px] bg-sky-500 rounded-lg shadow flex items-center justify-center">
-              <span className="text-md text-white font-semibold text-center">
+            <div className="w-[150px] h-[150px] bg-sky-500 rounded-lg shadow flex items-center justify-center">
+              <span className="text-lg text-white font-semibold text-center">
                 {/* @ts-ignore */}
                 {services["High School Courses"]}
               </span>
             </div>
-            <div className="w-[100px] h-[100px] bg-violet-500 rounded-lg shadow flex items-center justify-center">
-              <span className="text-md text-white font-semibold text-center">
+            <div className="w-[150px] h-[150px] bg-violet-500 rounded-lg shadow flex items-center justify-center">
+              <span className="text-lg text-white font-semibold text-center">
                 {/* @ts-ignore */}
                 {services["Practical Training Courses"]}
               </span>
@@ -100,10 +100,10 @@ export default async function Pape({
         <section className=" w-full md:w-[800px] mx-auto  h-fit my-8">
           <div className="w-full min-h-[500px] h-fit flex flex-col lg:flex-row items-center justify-center  md:gap-x-12 lg:gap-x-24">
             <div className="w-[400px] h-full flex p-6 lg:p-0 flex-col items-start justify-center gap-y-4">
-              <h2 className="text-2xl font-bold ">
+              <h2 className="text-3xl font-bold ">
                 {landing["who are we "].title}
               </h2>
-              <p className="text-md font-gray-700 ">
+              <p className="text-lg font-gray-700 ">
                 {landing["who are we "].description}
               </p>
             </div>
@@ -140,10 +140,10 @@ export default async function Pape({
           </div>
           <div className="w-full min-h-[500px] h-fit flex items-center justify-center flex-col lg:flex-row  md:gap-x-12 lg:gap-x-24">
             <div className="w-[400px] h-full flex flex-col  p-6 lg:p-0 items-start justify-center gap-y-4">
-              <h2 className="text-2xl font-bold ">
+              <h2 className="text-3xl font-bold ">
                 {landing["why choose us"].title}
               </h2>
-              <p className="text-md font-gray-700 ">
+              <p className="text-lg font-gray-700 ">
                 {landing["why choose us"].description}
               </p>
             </div>
@@ -162,7 +162,7 @@ export default async function Pape({
         </section>
 
         <section id="tesimonials" className="w-full h-fit">
-          <h2 className=" text-2xl lg:text-4xl font-bold text-start md:text-center my-12 ">
+          <h2 className=" text-3xl lg:text-4xl font-bold text-start md:text-center my-12 ">
             {reviewsTitle}
           </h2>
           <div className="flex w-full mx-auto max-w-[750px] justify-start items-start gap-6 flex-wrap">

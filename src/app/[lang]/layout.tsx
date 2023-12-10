@@ -7,6 +7,10 @@ import { Tajawal, Poppins } from "next/font/google";
 
 export const metadata = constructMetadata();
 
+const tajawal = Tajawal({ subsets: ["arabic"], weight: "500" });
+
+const poppins = Poppins({ subsets: ["latin"], weight: "500" });
+
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
 }
@@ -21,7 +25,7 @@ export default function RootLayout({
   return (
     <html
       suppressHydrationWarning
-      className="scroll-smooth"
+      className={`${lang === "ar" ? tajawal.className : poppins.className}`}
       dir={lang === "ar" ? "rtl" : "ltr"}
       lang={lang}
     >

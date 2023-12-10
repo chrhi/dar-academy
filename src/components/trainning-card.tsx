@@ -4,7 +4,7 @@ interface TrainningCardAbdullahProps {}
 
 const TrainningCard: FC = ({}) => {
   return (
-    <div className="w-[200px] h-[500px] bg-orange-500 border-2 border-black"></div>
+    <div className="w-[300px] h-[500px] bg-orange-500 border-2 border-black"></div>
   );
 };
 

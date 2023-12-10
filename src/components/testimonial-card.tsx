@@ -24,7 +24,7 @@ const TestimonialCard: FC<TestimonialCardAbdullahProps> = ({
         <Icons.star className="w-4 h-4 text-blue-500" />
         <Icons.star className="w-4 h-4 text-blue-500" />
       </div>
-      <p className="font-semibold  text-start tracking-normal text-base">
+      <p className="font-semibold  text-start tracking-normal text-lg">
         {comment}
       </p>
       <div className="w-full h-[80px] gap-x-4 flex items-center justify-start">
@@ -34,8 +34,8 @@ const TestimonialCard: FC<TestimonialCardAbdullahProps> = ({
         </Avatar>
 
         <div className="flex flex-col h-full justify-center gap-y-1">
-          <p className="font-bold text-md">{auther}</p>
-          <p className="text-gray-700 text-sm">{position}</p>
+          <p className="font-bold text-lg">{auther}</p>
+          <p className="text-gray-700 text-md">{position}</p>
         </div>
       </div>
     </div>

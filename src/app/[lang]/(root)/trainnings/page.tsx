@@ -21,7 +21,7 @@ const page: FC = ({}) => {
           </h2>
           <div className="w-full h-fit min-h-[500px] flex flex-wrap gap-4">
             {[1, 2, 3, 4, 5].map((item) => (
-              <TrainningCard />
+              <TrainningCard key={item} />
             ))}
           </div>
         </section>
@@ -30,6 +30,11 @@ const page: FC = ({}) => {
             {" "}
             Helpful Cheatsheets
           </h2>
+          <div className="w-full h-fit min-h-[500px] flex flex-wrap gap-4">
+            {[1, 2, 3, 4, 5].map((item) => (
+              <TrainningCard key={item} />
+            ))}
+          </div>
         </section>
       </MaxWidthWrapper>
     </main>
