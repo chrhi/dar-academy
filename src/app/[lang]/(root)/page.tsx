@@ -97,7 +97,7 @@ export default async function Pape({
           </div>
         </section>
 
-        <section className=" w-full md:w-[800px] mx-auto  h-fit my-8">
+        <section className=" w-full md:w-[800px] mx-auto  p-4 h-fit my-8">
           <div className="w-full min-h-[500px] h-fit flex flex-col lg:flex-row items-center justify-center  md:gap-x-12 lg:gap-x-24">
             <div className="w-[400px] h-full flex p-6 lg:p-0 flex-col items-start justify-center gap-y-4">
               <h2 className="text-3xl font-bold ">
@@ -161,7 +161,7 @@ export default async function Pape({
           </div>
         </section>
 
-        <section id="tesimonials" className="w-full h-fit">
+        <section id="tesimonials" className="w-full h-fit p-4">
           <h2 className=" text-3xl lg:text-4xl font-bold text-start md:text-center my-12 ">
             {reviewsTitle}
           </h2>
