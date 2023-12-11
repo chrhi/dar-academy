@@ -14,7 +14,7 @@ interface HeaderClinetAbdullahProps {
   navigation: {
     home: string;
     projects: string;
-    blog: string;
+
     contact: string;
   };
   Tabs: {
