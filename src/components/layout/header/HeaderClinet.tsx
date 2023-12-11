@@ -53,7 +53,7 @@ const HeaderClinet: FC<HeaderClinetAbdullahProps> = ({
 
   return (
     <header
-      className={`h-16 z-50  sticky top-0  bg-white   w-full ${
+      className={`h-[70px] z-50  sticky top-0  bg-white   w-full ${
         hasShadow ? "border-b-2 border-black shadow-sm" : ""
       } `}
     >
@@ -63,12 +63,7 @@ const HeaderClinet: FC<HeaderClinetAbdullahProps> = ({
           href="/"
           className="hover:bg-primary-900 rounded-full duration-75 transition-colors"
         >
-          <Image
-            src={logo}
-            alt="Moncef Aissaoui Letter"
-            width={40}
-            height={40}
-          />
+          <Image src={logo} alt="dar academy logo" width={65} height={65} />
         </CustomLink>
 
         <section className="flex items-center justify-center gap-3 ">

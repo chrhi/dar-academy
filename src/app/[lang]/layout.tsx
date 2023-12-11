@@ -29,6 +29,31 @@ export default function RootLayout({
       dir={lang === "ar" ? "rtl" : "ltr"}
       lang={lang}
     >
+      <head>
+        <meta
+          content="Level up your typescript skills with interactive exercises"
+          name="description"
+        />
+        <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
       <body className="selection:bg-blue-500 w-[100%] antialiased  selection:text-white scrollbar-thumb-blue scrollbar-track-blue-lighter scrollbar-w-2">
         <Providers>{children}</Providers>
       </body>
