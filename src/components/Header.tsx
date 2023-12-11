@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import AnimatedTabs from "./layout/header/AnimatedTabs";
-import logo from "../../public/dar-academy/logo.jpg";
+import logo from "../../public/dar-academy/logo.png";
 import LocaleSwitcher from "./layout/header/LocaleSwitcher";
 import CustomLink from "./layout/header/Link";
 import { Locale } from "@/i18n.config";
@@ -34,17 +34,15 @@ const Header = async ({ lang }: { lang: Locale }) => {
     <>
       <header className={`h-16 z-50  sticky top-0  bg-white   w-full `}>
         <MaxWidthWrapper className="flex justify-between items-center w-full h-full mx-auto">
-          <CustomLink
-            lang={lang}
-            href="/"
-            className="hover:bg-primary-900  rounded-full duration-75 transition-colors"
-          >
-            <Image
-              src={logo}
-              alt="Moncef Aissaoui Letter"
-              width={100}
-              height={100}
-            />
+          <CustomLink lang={lang} href="/">
+            <div className="hover:bg-primary-900 relative w-[100px] h-full bg-black  rounded-full duration-75 transition-colors">
+              <Image
+                src={logo}
+                alt="Moncef Aissaoui Letter"
+                width={80}
+                height={60}
+              />
+            </div>
           </CustomLink>
 
           <section className="flex items-center justify-end  ">
