@@ -9,7 +9,7 @@ interface footerAbdullahProps {
 }
 
 const Footer: FC<footerAbdullahProps> = async ({ lang }) => {
-  const { footer } = await getDictionary(lang);
+  const { footer, landing } = await getDictionary(lang);
   return (
     <div className="w-full lg:h-[300px] h-fit bg-background mt-8 border-t border-gray-200">
       <MaxWidthWrapper>
@@ -17,7 +17,7 @@ const Footer: FC<footerAbdullahProps> = async ({ lang }) => {
           <div className="lg:col-span-2 h-full w-full gap-y-4 flex flex-col items-start justify-center ">
             <Link href="/">
               <p className="text-2xl text-blue-500 font-bold text-start">
-                Dar Academy
+                {landing.name}
               </p>
             </Link>
             <Link href="/">

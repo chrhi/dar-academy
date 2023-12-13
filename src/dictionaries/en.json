@@ -37,11 +37,14 @@
   },
 
   "contact": {
-    "name": "Contact me",
-    "description": "Moncef letter contact section",
-    "title": "Get in Touch",
-    "email_title": "Feel free to drop me an email at:",
-    "phone_title": "You can also reach me by phone at:"
+    "title": "Envoyez un message à l'académie aujourd'hui",
+    "description": "Si vous avez des questions, n'hésitez pas à nous envoyer un message. Nous vous répondrons dès que nous le verrons.",
+    "First name": "Prénom",
+    "Last name": "Nom de famille",
+    "Phone number": "Numéro de téléphone",
+    "Email": "Email",
+    "Message": "Message",
+    "confirme": "En sélectionnant ceci, vous acceptez notre politique de confidentialité."
   },
   "footer": {
     "workHoures": {
@@ -64,11 +67,11 @@
           "url": "/"
         },
         {
-          "privacy policy": "terms",
+          "name": "terms",
           "url": "/"
         },
         {
-          "cookies": "terms",
+          "name": "terms",
           "url": "/"
         }
       ]
@@ -81,11 +84,11 @@
           "url": "/"
         },
         {
-          "privacy policy": "blog",
+          "name": "blog",
           "url": "/"
         },
         {
-          "cookies": "contact",
+          "name": "contact",
           "url": "/"
         }
       ]
@@ -98,7 +101,7 @@
           "url": "/"
         },
         {
-          "privacy policy": "instagram",
+          "name": "instagram",
           "url": "/"
         }
       ]

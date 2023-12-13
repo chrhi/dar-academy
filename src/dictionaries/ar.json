@@ -17,12 +17,13 @@
     },
     "sub": "أكاديمية دار تحت خدمتك"
   },
+
   "services": {
     "Our Services": "خدماتنا",
-    "Les Course Pour Primaire": "دورات للمرحلة الابتدائية",
-    "Les Course Pour Collège": "دورات للمرحلة الإعدادية",
-    "Les Course Pour Lycée": "دورات للمرحلة الثانوية",
-    "Les formation pratique": "دورات تدريبية عملية"
+    "Primary School Courses": "دورة للمدرسة الابتدائية",
+    "Middle School Courses": "دورة للكلية",
+    "High School Courses": "دورة للثانوية",
+    "Practical Training Courses": "تدريبات عملية"
   },
   "navigation": {
     "home": "الرئيسية",
@@ -49,6 +50,16 @@
         "السبت: مغلق",
         "الأحد: 08:00 – 17:00"
       ]
+    },
+    "contact": {
+      "title": "أرسل رسالة إلى أكاديمية اليوم",
+      "description": "إذا كان لديك أي أسئلة، فلا تتردد في إرسال رسالة وسنرد عليك في أقرب وقت ممكن.",
+      "First name": "الاسم الأول",
+      "Last name": "الاسم الأخير",
+      "Phone number": "رقم الهاتف",
+      "Email": "البريد الإلكتروني",
+      "Message": "الرسالة",
+      "confirme": "من خلال اختيار هذا، فإنك توافق على سياسة الخصوصية لدينا."
     },
     "Ligal": {
       "title": "قانوني",
