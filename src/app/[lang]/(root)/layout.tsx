@@ -19,7 +19,7 @@ export default function DashboardLayout({
     <>
       <Header lang={lang} />
       <main className="mt-[70px] min-h-screen ">{children}</main>
-      <Footer />
+      <Footer lang={lang} />
     </>
   );
 }

@@ -4,7 +4,7 @@ import GoogleRatingImage from "../../public/google.svg";
 
 const GoogleRating: FC = ({}) => {
   return (
-    <div className="w-[200px] h-[100px]   flex items-center justify-center">
+    <div className=" lg:w-[200px] lg:h-[100px] w-[150px] h-[70px]   flex items-center justify-center">
       <Image
         width={200}
         height={100}

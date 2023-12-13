@@ -44,7 +44,7 @@ export default async function Pape({
           <Balancer className="max-w-[42rem] font-semibold leading-normal text-muted-foreground sm:text-2xl sm:leading-8">
             {landing.description}
           </Balancer>
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="flex  items-center justify-center gap-2 lg:gap-4">
             <GoogleRating />
             <FacebookRating />
           </div>

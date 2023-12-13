@@ -35,50 +35,7 @@
     "blog": "/blog",
     "contact": "/contact"
   },
-  "blog": {
-    "name": "Blog",
-    "description": "Moncef letter blog",
-    "this_blog_not_found": {
-      "message": "Sorry, There is no blogs here , is you want to see my other blogs "
-    },
-    "writed_by": "Writed by",
-    "in": "in",
-    "read_more": "Read more"
-  },
-  "click_here": "Click here",
-  "project": {
-    "project_name": "Project",
-    "title": "A Glimpse into My Recent Projects",
-    "this_project_not_found": {
-      "message": "Sorry, There is no project here , if you want to see my projects "
-    },
-    "started_in": "Started in",
-    "project_link": "Project link",
-    "read_more": "Read more"
-  },
-  "hero": {
-    "line_1": {
-      "explore": "Explore my recent blog posts",
-      "here": "here"
-    },
-    "line_2": "Full-Stack Developer",
-    "line_3": "Startup Enthusiast",
-    "line_4": "Reader",
-    "line_5": "Welcome! I'm Moncef Aissaoui, a full-stack developer from Algeria. I love building new things and facing new challenges every day. My passions include building startups, reading, and blogging. Join me on my journey towards achieving my goals as I share insights on this website.",
-    "cta": {
-      "what_i_built": "What I built ?",
-      "whats_my_skills": "What's my skills ?"
-    }
-  },
-  "skills": {
-    "line_1": "I'm Skilled in",
-    "line_2": {
-      "quick_tip": "Quick tip",
-      "you_can_": "You can hover over the skill in",
-      "pc": "PC",
-      "to_": "to read its name"
-    }
-  },
+
   "contact": {
     "name": "Contact me",
     "description": "Moncef letter contact section",
@@ -87,13 +44,66 @@
     "phone_title": "You can also reach me by phone at:"
   },
   "footer": {
-    "navigation": {
-      "home": "Accueil",
-      "projects": "formations",
-
-      "contact": "Contacte"
+    "workHoures": {
+      "title": "Horaires d'ouverture",
+      "linkes": [
+        "lun.: 08:00 – 17:00",
+        "mar.: 08:00 – 17:00",
+        "mer.: 08:00 – 17:00",
+        "jeu.: 08:00 – 17:00",
+        "ven.: Fermé",
+        "sam.: Fermé",
+        "dim.: 08:00 – 17:00"
+      ]
     },
-    "copyright": "© 2023 - Moncef Aissaoui. All rights reserved."
+    "Ligal": {
+      "title": "ligal",
+      "linkes": [
+        {
+          "name": "terms",
+          "url": "/"
+        },
+        {
+          "privacy policy": "terms",
+          "url": "/"
+        },
+        {
+          "cookies": "terms",
+          "url": "/"
+        }
+      ]
+    },
+    "Links": {
+      "title": "Links",
+      "linkes": [
+        {
+          "name": "formations",
+          "url": "/"
+        },
+        {
+          "privacy policy": "blog",
+          "url": "/"
+        },
+        {
+          "cookies": "contact",
+          "url": "/"
+        }
+      ]
+    },
+    "social-media": {
+      "title": "social media",
+      "linkes": [
+        {
+          "name": "facebook",
+          "url": "/"
+        },
+        {
+          "privacy policy": "instagram",
+          "url": "/"
+        }
+      ]
+    },
+    "copyright": "© 2023 - dar academy. All rights reserved."
   },
   "reviews": [
     {

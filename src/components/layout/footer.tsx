@@ -1,10 +1,15 @@
 import type { FC } from "react";
 import MaxWidthWrapper from "../max-width-wrapper";
 import Link from "next/link";
+import { Locale } from "@/i18n.config";
+import { getDictionary } from "@/lib/dictionary";
 
-interface footerAbdullahProps {}
+interface footerAbdullahProps {
+  lang: Locale;
+}
 
-const Footer: FC = ({}) => {
+const Footer: FC<footerAbdullahProps> = async ({ lang }) => {
+  const { footer } = await getDictionary(lang);
   return (
     <div className="w-full lg:h-[300px] h-fit bg-background mt-8 border-t border-gray-200">
       <MaxWidthWrapper>
@@ -24,68 +29,45 @@ const Footer: FC = ({}) => {
 
           <div className=" w-full h-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
             <p className="text-lg font-semibold text-foreground ">
-              Social media
+              {footer["social-media"].title}
             </p>
-            <Link href="/">
-              <p className="text-md   text-foreground ">facebok</p>
-            </Link>
-            <Link href="/">
-              <p className="text-md  text-foreground  ">instagrame</p>
-            </Link>
+            {footer["social-media"].linkes.map((item) => (
+              <Link href={item.url} key={item.name}>
+                <p className="text-md   text-foreground ">{item.name}</p>
+              </Link>
+            ))}
           </div>
           <div className=" w-full h-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
-            <p className="text-lg font-semibold text-foreground  ">Links</p>
-            <Link href="/">
-              <p className="text-md  text-foreground ">formations</p>
-            </Link>
-            <Link href="/">
-              <p className="text-md text-foreground ">blog</p>
-            </Link>
-
-            <Link href="/">
-              <p className="text-md text-foreground ">contact</p>
-            </Link>
+            <p className="text-lg font-semibold text-foreground  ">
+              {footer.Links.title}
+            </p>
+            {footer.Links.linkes.map((item) => (
+              <Link href={item.url} key={item.name}>
+                <p className="text-md  text-foreground ">{item.name}</p>
+              </Link>
+            ))}
           </div>
 
           <div className=" w-full h-full flex flex-col justify-start items-start gap-y-2 pt-8 ">
-            <p className="text-lg font-semibold text-foreground  ">Ligal</p>
-            <Link href="/">
-              <p className="text-md  text-foreground ">term</p>
-            </Link>
-            <Link href="/">
-              <p className="text-md text-foreground ">privacy policy</p>
-            </Link>
-            <Link href="/">
-              <p className="text-md text-foreground ">cookies </p>
-            </Link>
+            <p className="text-lg font-semibold text-foreground  ">
+              {footer.Ligal.title}
+            </p>
+            {footer.Ligal.linkes.map((item) => (
+              <Link href={item.url} key={item.name}>
+                <p className="text-md  text-foreground ">{item.name}</p>
+              </Link>
+            ))}
           </div>
 
           <div className=" w-full flex h-full flex-col justify-start items-start gap-y-2 pt-8 ">
             <p className="text-md font-semibold text-foreground  ">
-              Horaires d&apos;ouverture
+              {footer.workHoures.title}
             </p>
-            <Link href="/">
-              <p className="text-sm  text-foreground ">lun.: 08:00 – 17:00</p>
-            </Link>
-            <Link href="/">
-              <p className="text-sm text-foreground ">mar.: 08:00 – 17:00</p>
-            </Link>
-            <Link href="/">
-              <p className="text-sm text-foreground ">mer.: 08:00 – 17:00</p>
-            </Link>
-
-            <Link href="/">
-              <p className="text-sm  text-foreground ">jeu.: 08:00 – 17:00</p>
-            </Link>
-            <Link href="/">
-              <p className="text-sm text-foreground ">ven.: Fermé</p>
-            </Link>
-            <Link href="/">
-              <p className="text-sm text-foreground ">sam.: Fermé</p>
-            </Link>
-            <Link href="/">
-              <p className="text-sm text-foreground ">dim.: 08:00 – 17:00</p>
-            </Link>
+            {footer.workHoures.linkes.map((item) => (
+              <Link href="/" key={item}>
+                <p className="text-sm  text-foreground ">{item}</p>
+              </Link>
+            ))}
           </div>
         </div>
       </MaxWidthWrapper>
