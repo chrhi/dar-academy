@@ -11,6 +11,7 @@ import FirstImage from "../../../../public/dar-academy/2022-07-12.jpg";
 import SecondImage from "../../../../public/dar-academy/2022-07-13 (1).jpg";
 import TheardImage from "../../../../public/dar-academy/2022-07-13 (2).jpg";
 import Map from "@/components/layout/homepage/Map";
+import Hero from "@/components/layout/hero";
 
 // import { getBase64 } from "@/lib/plaiceholder";
 
@@ -26,7 +27,7 @@ export default async function Pape({
   return (
     <MaxWidthWrapper>
       <main>
-        <section
+        {/* <section
           id="hero"
           aria-labelledby="hero-heading"
           className=" relative mx-auto flex w-full max-w-[64rem] flex-col items-center justify-center gap-4 pt-12  text-center md:pt-32"
@@ -48,7 +49,9 @@ export default async function Pape({
             <GoogleRating />
             <FacebookRating />
           </div>
-        </section>
+        </section> */}
+
+        <Hero lang={lang} />
 
         <section
           id="our services"

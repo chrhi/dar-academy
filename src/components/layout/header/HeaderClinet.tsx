@@ -54,7 +54,7 @@ const HeaderClinet: FC<HeaderClinetAbdullahProps> = ({
   return (
     <header
       className={`h-[70px] z-50  sticky top-0  bg-white   w-full ${
-        hasShadow ? "border-b-2 border-black shadow-sm" : ""
+        hasShadow ? "border-b shadow " : ""
       } `}
     >
       <MaxWidthWrapper className="flex justify-between items-center w-full h-full mx-auto">
