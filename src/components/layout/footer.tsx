@@ -3,6 +3,8 @@ import MaxWidthWrapper from "../max-width-wrapper";
 import Link from "next/link";
 import { Locale } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionary";
+import { Button } from "../ui/button";
+import SignIn from "../auth/sign-in";
 
 interface footerAbdullahProps {
   lang: Locale;
@@ -69,6 +71,9 @@ const Footer: FC<footerAbdullahProps> = async ({ lang }) => {
               </Link>
             ))}
           </div>
+        </div>
+        <div className="w-full h-[60px] p-2 flex items-center justify-end">
+          <SignIn />
         </div>
       </MaxWidthWrapper>
     </div>
