@@ -15,7 +15,7 @@ const Hero: FC<heroAbdullahProps> = async ({ lang }) => {
     <section
       id="hero"
       aria-labelledby="hero-heading"
-      className=" relative mx-auto flex w-full  items-center justify-center  gap-4  pt-24  text-center "
+      className=" relative mx-auto  w-full hidden lg:flex  items-center justify-center  gap-4  pt-24  text-center "
     >
       <div className="w-[50%] h-full flex flex-col items-start justify-center  gap-y-4">
         <div className=" flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white  shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
